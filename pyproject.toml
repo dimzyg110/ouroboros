@@ -30,7 +30,7 @@ dashboard = [
     "plotly>=5.24.0,<7.0.0",
     "pandas>=2.2.0,<3.0.0",
 ]
-mcp = ["mcp>=1.26.0,<2.0.0"]
+mcp = ["mcp>=1.30.0,<2.0.0"]
 tui = ["textual>=1.0.0,<9.0.0"]
 all = ["ouroboros-ai[claude,copilot,litellm,mcp,tui,dashboard]"]
 
